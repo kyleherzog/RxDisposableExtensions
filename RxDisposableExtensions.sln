@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RxDisposableExtensions", "RxDisposableExtensions\RxDisposableExtensions.csproj", "{C5BF8098-1CDE-4B37-8D81-25D23EB53D0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E19D3521-EAD1-4D48-A574-85F394D69071}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5BF8098-1CDE-4B37-8D81-25D23EB53D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BF8098-1CDE-4B37-8D81-25D23EB53D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BF8098-1CDE-4B37-8D81-25D23EB53D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BF8098-1CDE-4B37-8D81-25D23EB53D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92E14DD4-1D36-4DD7-BB48-B485EFD071CD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RxDisposableExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:RxDisposableExtensions.DisposableExtensions">
+            <summary>
+            Provides extensions methods for IDisposable objects.
+            </summary>
+        </member>
+        <member name="M:RxDisposableExtensions.DisposableExtensions.DisposeWith``1(``0,System.Reactive.Disposables.CompositeDisposable)">
+            <summary>
+            Adds the specified observable item to the given <see cref="T:System.Reactive.Disposables.CompositeDisposable"/>.
+            </summary>
+            <typeparam name="T">The type of the object being added to the <see cref="T:System.Reactive.Disposables.CompositeDisposable"/>.</typeparam>
+            <param name="observable">The <see cref="T:System.IDisposable"/> observable that is to be added to the specified <see cref="T:System.Reactive.Disposables.CompositeDisposable"/>.</param>
+            <param name="disposables">The <see cref="T:System.Reactive.Disposables.CompositeDisposable"/> to which the observable is to be added.</param>
+            <returns>The original observable object being added to the <see cref="T:System.Reactive.Disposables.CompositeDisposable"/>.</returns>
+        </member>
+    </members>
+</doc>
